@@ -1,0 +1,5 @@
+FROM windowsservercore
+
+ENTRYPOINT C:\app\ConsoleApplication1.exe
+
+COPY . /app
